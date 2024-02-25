@@ -1,11 +1,168 @@
 <html>
   <head> 
     <title>MU Vision</title>
-    <link href="styles.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <style>header {
+  display: flex;
+  align-items: center; 
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.logo-div img {
+  height: 150px; 
+  width: 150px; 
+}
+
+.heading h1 {
+  margin: 0; 
+  text-align: center; 
+  flex-grow: 1; 
+  color:white;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-size:32px;
+}
+
+.navbar {
+  display: flex; 
+  flex-direction: column; 
+  align-items: flex-end; 
+}
+
+.navbar ul {
+  list-style: none;
+  padding: 0; 
+  margin: 0; 
+}
+
+.navbar li {
+  font-size: 25px; 
+  color: #B3D4FC; 
+  margin: 10px 0;
+   font-family: Helvetica, Arial, sans-serif;
+}
+
+.navbar a {
+  text-decoration: none; 
+  color: inherit; 
+}
+
+a {
+  color:black;
+}
+
+body {
+   background-color:#007BFF;
+}
+
+#mission {
+  display: flex;
+  margin-top: 50px;
+  height: 450px;
+  width: 100%;
+  background-image: url(https://dtechsystems.co/wp-content/uploads/2023/08/computer-screens-running-programming-code-empty-software-developing-agency-office-computers-parsing-data-algorithms-background-neural-network-servers-cloud-computing-data-room.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 45px;
+}
+
+#mission p {
+  background-color:#87CEEB;
+  font-size:20px;
+  width:100%;
+  text-align:center;
+  color:#5C4033;
+  font-family: Verdana, sans-serif;
+  padding: 15px 0;
+}
+
+em {
+  color:black;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 20px;
+}
+
+.service {
+  display: flex; 
+  align-items: center;
+  background-color:  #4DB6AC; 
+}
+
+.service img {
+  width: 100px; 
+  height: auto; 
+  margin-right: 20px; 
+}
+
+service p {
+  color:#2F4F4F;
+  font-family: "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-align: center;
+}
+
+.picture img{
+  height:300px;
+  width:300px;
+}
+
+
+  #team {
+  margin-top: 90px;
+  background-image: url("https://files.oaiusercontent.com/file-n5tTQ8kBEQG2oGupxXJvoGCi?se=2024-02-25T18%3A42%3A21Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3Df94f94ac-b57d-4818-b61f-ec4def92fa20.webp&sig=Jvb/UFriU/kRbjGqb4Ajob0HpcLB6kJTheHLE5hMQtY%3D");
+  background-size: cover; 
+  background-position: center; 
+}
+
+.picture {
+  display:flex;
+  justify-content:center;
+  padding: 20px;
+}
+
+#team p, #team h3 {
+  text-align:center;
+  font-family: Georgia, 'Times New Roman';
+   color: #007BFF;
+   background-color:black;
+}
+
+footer {
+  background-color: white;
+  text-align: center;
+  width:100%;
+}
+
+@media only screen and (max-width:450px) {
+  .logo-div img {
+    height:100px;
+    width:100px;
+  }
+
+  .heading h1 {
+    font-size:20px;
+    margin:5px
+  }
+  
+  .navbar li {
+    font-size:15px;
+  }
+
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+}
+</style>
   </head>
   <body>
     <header>
